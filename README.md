@@ -25,7 +25,7 @@ usage
 install
 ================================================================================
 
-    npm install -g @moar-things/fav-commands
+    npm install -g moar-things/fav-commands
 
 
 license

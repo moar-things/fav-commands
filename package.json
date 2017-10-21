@@ -1,6 +1,6 @@
 {
-  "name": "@moar-things/fav-commands",
-  "version": "0.0.1",
+  "name": "fav-commands",
+  "version": "0.0.2",
   "description": "shell utility to pick favorite commands per directory",
   "license": "MIT",
   "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",

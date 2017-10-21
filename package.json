@@ -1,13 +1,13 @@
 {
   "name": "fav-commands",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "shell utility to pick favorite commands per directory",
   "license": "MIT",
   "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
   "homepage": "https://github.com/moar-things/fav-commands",
   "main": "fav-commands.js",
   "bin": {
-    "fav-commands": "./fav-commands.sh"
+    "fav-commands.js": "./fav-commands.js"
   },
   "repository": {
     "type": "git",

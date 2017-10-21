@@ -1,0 +1,41 @@
+{
+  "name": "@moar-things/fav-commands",
+  "version": "0.0.1",
+  "description": "shell utility to pick favorite commands per directory",
+  "license": "MIT",
+  "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",
+  "homepage": "https://github.com/moar-things/fav-commands",
+  "main": "fav-commands.js",
+  "bin": {
+    "fav-commands": "./fav-commands.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moar-things/fav-commands.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moar-things/fav-commands/issues"
+  },
+  "scripts": {
+    "standard": "echo 'running standard' && standard -v",
+    "test": "npm -s run standard && npm -s run utest",
+    "utest": "INSPECTOR_PORT=9228 node --inspect=9228 test/index.js | FORCE_COLOR=1 tap-spec",
+    "watch": "nodemon --exec 'npm -s test'"
+  },
+  "standard": {
+    "ignore": [
+      "/tmp/",
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "blessed": "~0.1.81",
+    "minimist": "~1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "~1.12.1",
+    "standard": "~10.0.3",
+    "tap-spec": "~4.1.1",
+    "tape": "~4.8.0"
+  }
+}

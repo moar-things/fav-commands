@@ -8,6 +8,7 @@ current directory, and from the `~/.fav-commands-global` file.
 The file should list commands one-per-line, with blank lines and lines
 beginning with "`#`" ignored.
 
+![sample](images/fav-commands.gif)
 
 usage
 ================================================================================

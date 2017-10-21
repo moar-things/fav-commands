@@ -1,6 +1,6 @@
 {
   "name": "fav-commands",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "shell utility to pick favorite commands per directory",
   "license": "MIT",
   "author": "Patrick Mueller <pmuellr@apache.org> (https://github.com/pmuellr)",

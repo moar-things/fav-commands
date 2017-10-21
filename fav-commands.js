@@ -14,8 +14,6 @@ const menu = require('./lib/menu')
 exports.appName = path.basename(pkg.name)
 exports.version = pkg.version
 
-const Log = require('./lib/logger').getLogger(__filename)
-
 // run from the command-line
 function run () {
   const minimistOpts = {
@@ -37,8 +35,7 @@ function run () {
 
   const favCommands = favs.getFavCommands()
   if (favCommands.length === 0) {
-    Log('no .fav-commands found')
-    process.exit(1)
+    favCommands.push('# no .fav-commands found')
   }
 
   menu.run(favCommands)
